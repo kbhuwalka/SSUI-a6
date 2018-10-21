@@ -1,4 +1,4 @@
-body{
+.App{
   min-height: 100vh;
   display:flex;
   flex-wrap: wrap;
@@ -34,6 +34,7 @@ nav{
   align-self: stretch;
   padding-bottom: 80px;
   padding-top: 80px;
+  display: none;
 }
 
 #card-container .card{
@@ -64,8 +65,19 @@ nav{
   height:100%;
 }
 
-.frosted-glass .close-icon{
+#close-icon{
   position: absolute;
-  top:16px;
-  right: 16px;
+  top:0;
+  right: 0;
+  padding: 16px;
+  z-index:100;
+}
+
+.header-link{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header-link i{
+  margin-left: 8px;
 }
