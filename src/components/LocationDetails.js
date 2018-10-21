@@ -9,8 +9,10 @@ const LocationDetails = (props) =>{
 
             </div>
             <div className="frosted-glass-content-container">
-              <div className="frosted-glass-content white-text">
-                {props.locationDescription}
+              <div className="frosted-glass-content white-text left-align">
+                {props.locationDescription.map(para =>
+                  <p>{para}</p>
+                )}
               </div>
             </div>
             <div className="card-content grey-text text-darken-3"></div>

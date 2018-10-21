@@ -22,4 +22,9 @@ $(() => {
     $("#read-more").visibilityToggle();
     $("#card-container").fadeToggle();
   });
+
+  $("#nav-mobile li").on("click", function(){
+    $("#nav-mobile li").removeClass("active");
+    $(this).toggleClass("active");
+  });
 });

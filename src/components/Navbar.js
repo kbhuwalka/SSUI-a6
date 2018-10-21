@@ -7,7 +7,9 @@ const Navbar = (props) =>{
           <ul className="right" id="nav-mobile">
             {
               props.locations.map(location =>
-                <li><a href="#">{location}</a></li>
+                <li onClick={() => props.changeLocation(location)}>
+                  <a>{location}</a>
+                </li>
               )
             }
           </ul>

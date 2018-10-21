@@ -1,15 +1,13 @@
-.App{
+#App{
   min-height: 100vh;
   display:flex;
   flex-wrap: wrap;
   flex-flow: column;
 
-  background: linear-gradient(0deg,rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("../images/bg.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-attachment: fixed;
+  background-position: center center;
+	background-repeat:  no-repeat;
+	background-attachment: fixed;
+	background-size:  cover;
 }
 
 nav{
@@ -71,6 +69,7 @@ nav{
   right: 0;
   padding: 16px;
   z-index:100;
+  cursor:pointer;
 }
 
 .header-link{
@@ -80,4 +79,8 @@ nav{
 
 .header-link i{
   margin-left: 8px;
+}
+
+#read-more{
+  cursor:pointer;
 }
