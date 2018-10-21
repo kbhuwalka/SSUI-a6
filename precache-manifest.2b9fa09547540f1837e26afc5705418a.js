@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/SSUI-a6/static/css/main.650de62d.chunk.css"
   },
   {
-    "revision": "69a54c770331a657d97c21936b798bc4",
+    "revision": "764135c3b227313fd2f10a801c42acac",
     "url": "/SSUI-a6/index.html"
   }
 ];
