@@ -23,6 +23,7 @@ $(() => {
     $("#card-container").fadeToggle();
   });
 
+  $("#nav-mobile li:first-child").addClass("active");
   $("#nav-mobile li").on("click", function(){
     $("#nav-mobile li").removeClass("active");
     $(this).toggleClass("active");
