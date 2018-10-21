@@ -12,7 +12,7 @@ class App extends Component {
       name: "Mount Washington",
       description:locations["Mount Washington"]["description"],
       background:{
-        backgroundImage: 'linear-gradient(0deg,rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("../images/'+
+        backgroundImage: 'linear-gradient(0deg,rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("./images/'+
         locations["Mount Washington"]["image"]+
         '")'
       }
@@ -25,7 +25,7 @@ class App extends Component {
         name:newLocation,
         description: locations[newLocation]["description"],
         background:{
-          backgroundImage: 'linear-gradient(0deg,rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("../images/'+
+          backgroundImage: 'linear-gradient(0deg,rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("./images/'+
           locations[newLocation]["image"]+
           '")'
         }
