@@ -1,7 +1,7 @@
 {
   "main.css": "/SSUI-a6/static/css/main.650de62d.chunk.css",
-  "main.js": "/SSUI-a6/static/js/main.bb2f6fce.chunk.js",
-  "main.js.map": "/SSUI-a6/static/js/main.bb2f6fce.chunk.js.map",
+  "main.js": "/SSUI-a6/static/js/main.8583c4d9.chunk.js",
+  "main.js.map": "/SSUI-a6/static/js/main.8583c4d9.chunk.js.map",
   "static/js/1.7eae6140.chunk.js": "/SSUI-a6/static/js/1.7eae6140.chunk.js",
   "static/js/1.7eae6140.chunk.js.map": "/SSUI-a6/static/js/1.7eae6140.chunk.js.map",
   "runtime~main.js": "/SSUI-a6/static/js/runtime~main.3fde48b4.js",
@@ -9,6 +9,6 @@
   "static/media/logo.svg": "/SSUI-a6/static/media/logo.5d5d9eef.svg",
   "static/css/main.650de62d.chunk.css.map": "/SSUI-a6/static/css/main.650de62d.chunk.css.map",
   "index.html": "/SSUI-a6/index.html",
-  "precache-manifest.2b9fa09547540f1837e26afc5705418a.js": "/SSUI-a6/precache-manifest.2b9fa09547540f1837e26afc5705418a.js",
+  "precache-manifest.fe0831dd80c023a380e37eec408de981.js": "/SSUI-a6/precache-manifest.fe0831dd80c023a380e37eec408de981.js",
   "service-worker.js": "/SSUI-a6/service-worker.js"
 }
